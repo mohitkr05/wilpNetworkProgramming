@@ -6,18 +6,18 @@
 #include <sys/types.h>
 #include <stdlib.h>
 
-int glob = 6;
+int glob = 6; /* the global variable */
 int main() {
 	int var;
-	pid_t pid;
+	pid_t pid; 
 
 	var = 88;
 	printf("Before Fork\n");
 
-	if((pid = fork())<0){
-		perror("fork");
+	if((pid = fork())<0){ /*pid is assigned the value of forked process */
+		perror("fork"); /* handle the error */
 	}
-	else if (pid ==0){
+	else if (pid ==0){ /* if the process is forked */
 			glob++;
 			var++;
 			printf("pid =%d, glob=%d,var=%d\n",getpid(),glob,var);
