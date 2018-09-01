@@ -32,4 +32,7 @@ The repository contains the programming exercises performed for the Network Prog
 ### thread.c
 
 
+### References
 
+1. Beej's Guide to Network Programming [https://beej.us/guide/bgnet/html/multi/index.html]
+2. Introduction to Socket's Programming [https://www.csd.uoc.gr/~hy556/material/tutorials/cs556-3rd-tutorial.pdf]
