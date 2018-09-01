@@ -10,29 +10,24 @@ The repository contains the programming exercises performed for the Network Prog
 
 ## List of Programs
 
-###  environment.c - 
- The purpose of this program is to 
- 1. Demonstrate the use of external variable environ that is provided by the kernel to display all the environment variables
- 2. Iterate among the passed arguments one by one, provided in form or argument count and argument character
 
 ### List of Programs
-
-1.create_process.c
-2.fetch_ip.c
-3.pipe.c
-4.hellokern.c
-5.malloc.c
-6.understanding_pointers.c
-7.address_map.c
-8.daytime.c
-9.printf.c
-10.memset.c
-11.showip.c
-12.simple_write.c
-13.thread.c
-14.thread_join.c
-15.enviornment.c
-16.tcp_keepalive.c
+ 1. create_process.c
+ 2. fetch_ip.c
+ 3. pipe.c
+ 4. hellokern.c
+ 5. malloc.c
+ 6. understanding_pointers.c
+ 7. address_map.c
+ 8. daytime.c
+ 9. printf.c
+ 10. memset.c
+ 11. showip.c
+ 12. simple_write.c
+ 13. thread.c
+ 14. thread_join.c
+ 15. enviornment.c
+ 16. tcp_keepalive.c
 
 
 
